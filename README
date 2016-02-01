@@ -1,0 +1,22 @@
+POSIX Thread Pool
+=========
+
+POSIX Thread Pool (PTP) is a POSIX-based implementation of a thread pool.
+
+With PTP you are to:
+- Create a thread pool (thread safe) with min and max number of threads;
+- Chose the timeout that makes an idle extra thread to die;
+- Implement your function to decide when a new thread will be created;
+- Add as many tasks as you want (need);
+
+TODO:
+- Separate ACTIVE and QUEUED tasks (need it?);
+- Pool (threads) WAIT and DESTROY (stop);
+- Pool reset (need it?);
+- Policies to schedule the threads into the pool (lifo, fifo, piority, etc);
+
+For more information on PTP, see the page:
+http://gitorious.org/posix_thread_pool/pages/Home
+
+POSIX Thread Pool is licensed under the GNU GPL version 3.
+See the GPLv3 file for the license text.
