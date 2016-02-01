@@ -15,8 +15,5 @@ TODO:
 - Pool reset (need it?);
 - Policies to schedule the threads into the pool (lifo, fifo, piority, etc);
 
-For more information on PTP, see the page:
-http://gitorious.org/posix_thread_pool/pages/Home
-
 POSIX Thread Pool is licensed under the GNU GPL version 3.
 See the GPLv3 file for the license text.
